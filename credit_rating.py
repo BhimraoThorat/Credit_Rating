@@ -29,7 +29,7 @@ pd.DataFrame(sf)
 sf.head(10)
 sf.isnull().sum()
 sf.info()
-row_with_date = sf[sf['date'] == "2024-03-21"]
+row_with_date = sf[sf['date'] == "2024-07-03"]
 
 pd.DataFrame(row_with_date)
 sf.rename(columns={'orgNumber': 'CIN'}, inplace=True)
